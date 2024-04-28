@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KGhjbumhwFIEoqxyiwBeoZBjjyE02C7mfjQDkqzaWZNEy+E5ceVu/ln3aGjJvvF4JdQ/gjM15NAfNGaYRCC47A==",
+  "dgSpecHash": "/Cf8xtCfCYoyhKSEJZLdnsP0+B6Ihs9kj6x/1masas4RGkskfLmoJMCTV5xPyNPslE0w+5u9YHPVEOjkkhXW1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yaroslav\\Desktop\\homework\\server\\micro_services\\todos_api\\todos_api.csproj",
+  "projectFilePath": "C:\\Users\\yaroslav\\Desktop\\homework\\server\\hm_mic_serv\\notes_APS-Django\\todos_api\\todos_api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yaroslav\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\yaroslav\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

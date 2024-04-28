@@ -1236,11 +1236,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yaroslav\\Desktop\\homework\\server\\micro_services\\todos_api\\todos_api.csproj",
+      "projectUniqueName": "C:\\Users\\yaroslav\\Desktop\\homework\\server\\hm_mic_serv\\notes_APS-Django\\todos_api\\todos_api.csproj",
       "projectName": "todos_api",
-      "projectPath": "C:\\Users\\yaroslav\\Desktop\\homework\\server\\micro_services\\todos_api\\todos_api.csproj",
+      "projectPath": "C:\\Users\\yaroslav\\Desktop\\homework\\server\\hm_mic_serv\\notes_APS-Django\\todos_api\\todos_api.csproj",
       "packagesPath": "C:\\Users\\yaroslav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yaroslav\\Desktop\\homework\\server\\micro_services\\todos_api\\obj\\",
+      "outputPath": "C:\\Users\\yaroslav\\Desktop\\homework\\server\\hm_mic_serv\\notes_APS-Django\\todos_api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

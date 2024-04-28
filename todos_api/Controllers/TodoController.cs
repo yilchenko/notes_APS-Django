@@ -27,7 +27,7 @@ namespace MyApiProject.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Todo>> GetTodoById(string id)
         {
-            var todo = await _context.GetTodoByIdAsync(ObjectId.Parse(id));
+            var todo = await _context.GetTodoByIdAsync(id);
             if (todo == null)
             {
                 return NotFound();
@@ -50,26 +50,26 @@ namespace MyApiProject.Controllers
                 return BadRequest();
             }
 
-            var existingTodo = await _context.GetTodoByIdAsync(ObjectId.Parse(id));
+            var existingTodo = await _context.GetTodoByIdAsync(id);
             if (existingTodo == null)
             {
                 return NotFound();
             }
 
-            await _context.UpdateTodoAsync(ObjectId.Parse(id), todo);
+            await _context.UpdateTodoAsync(id, todo);
             return NoContent();
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTodoById(string id)
         {
-            var todo = await _context.GetTodoByIdAsync(ObjectId.Parse(id));
+            var todo = await _context.GetTodoByIdAsync(id);
             if (todo == null)
             {
                 return NotFound();
             }
 
-            await _context.DeleteTodoAsync(ObjectId.Parse(id));
+            await _context.DeleteTodoAsync(id);
             return NoContent();
         }
     }
